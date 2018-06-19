@@ -1,17 +1,19 @@
 /*初始化CSS*/
+
+@font-face {
+    font-family: 'Special Elite';
+    src: url("../fonts/SpecialElite.ttf") format("truetype");
+}
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Special Elite', 'Helvetica', Arial, sans-serif;
 }
 
 body{
     background-color: #ea4255;
 }
 
-@font-face {
-    font-family: FontAwesome1;
-    src: url("fonts/fontawesome-webfont.woff2");
-}
 .main-wrap{
     max-width: 1440px;
     margin: 0 auto;
@@ -30,15 +32,47 @@ body{
     margin: 0 20px;
 }
 
-.header-wrap .header-botton{
+.header-wrap .header-pic{
     height: 250px;
-    background-image: url("img/header.jpg");
+    background-image: url("../img/header.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    text-align: center;
 }
-i{
-    height: 20px;
-    width: 20px;
-    background: rebeccapurple;
-    font-family: FontAwesome1;
+
+.header-wrap .cart-cta{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: black;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    padding: 20px 25px;
+}
+
+.site-logo{
+    width: 100%;
+    text-align: center;
+    display: table;
+}
+
+.site-logo .site-logo-inner{
+    display: table-cell;
+    height: 250px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.site-logo-inner a{
+    color: #2a3437;
+    font-size: 46px;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.site-logo-inner small{
+    font-size: 20px;
+    font-family: 'Special Elite', 'Helvetica', Arial, sans-serif;
 }
