@@ -10,6 +10,14 @@
     font-family: 'Special Elite', 'Helvetica', Arial, sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+*::selection{
+    background-color: lightslategray;
+}
+
 body{
     background-color: #ea4255;
 }
@@ -65,7 +73,7 @@ body{
     width: 100%;
 }
 
-.site-logo-inner a{
+.site-logo-inner .header-youthy{
     color: #2a3437;
     font-size: 46px;
     letter-spacing: 1px;
@@ -75,4 +83,60 @@ body{
 .site-logo-inner small{
     font-size: 20px;
     font-family: 'Special Elite', 'Helvetica', Arial, sans-serif;
+}
+
+.header-wrap .header-nav{
+    /*height: 60px;*/
+    line-height: 50px;
+    background-color: #2a3437;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.header-nav .nav li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-a{
+    color: #fff;
+    display: block;
+}
+
+.nav-a:hover{
+    color: #aaa;
+}
+
+/*图片轮播窗口*/
+.slider-Band{
+    color: #fff;
+    min-height: 448px;
+    width: 100%;
+    background-image: url("../img/slider-3-1440x648.jpg");
+    padding: 100px 0;
+    position: relative;
+}
+
+.slider-band-inner{
+    display: inline-block;
+    padding: 30px 15px;
+    background-color: rgba(0, 154, 233, 0.95);
+}
+
+.slider-band-inner h2{
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.slider-band-content{
+    display: inline-block;
+    line-height: 20px;
+    width: 520px;
+    background-color: rgba(234, 66, 86, 0.85);
+    padding: 20px;
+    position: relative;
+    top: 120px;
+    left: -120px;
 }
