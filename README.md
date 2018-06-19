@@ -6,3 +6,6 @@
 
 ## 第一阶段:html5和css阶段
 > 这个阶段将完成html5和css布局部分
+
+# 网页实例
+![index](./index.png)
