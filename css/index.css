@@ -85,8 +85,8 @@ body{
     font-family: 'Special Elite', 'Helvetica', Arial, sans-serif;
 }
 
+/*菜单布局*/
 .header-wrap .header-nav{
-    /*height: 60px;*/
     line-height: 50px;
     background-color: #2a3437;
     width: 100%;
@@ -95,18 +95,38 @@ body{
     font-size: 20px;
 }
 
-.header-nav .nav li{
+.header-nav .nav>li{
     display: inline-block;
     margin: 0 20px;
 }
 
-.nav-a{
+.header-nav .nav{
+    position: relative;
+}
+
+ul a{
     color: #fff;
     display: block;
 }
 
-.nav-a:hover{
+nav a:hover{
     color: #aaa;
+}
+
+.sub-menu{
+    position: absolute;
+    list-style: none;
+    display: none;
+    z-index: 999;
+    background-color: #2a3437;
+    padding: 0px 20px;
+    width: 150px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.nav>li:hover .sub-menu{
+    display: block;
 }
 
 /*图片轮播窗口*/
