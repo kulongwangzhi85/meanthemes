@@ -160,3 +160,38 @@ nav a:hover{
     top: 120px;
     left: -120px;
 }
+
+/*蓝色区域布局*/
+.blue{
+    background: #0099e9;
+    width: 100%;
+}
+
+.table{
+    display: table;
+}
+
+.row{
+    text-align: center;
+    display: table-row;
+}
+
+.cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.blue .box-wrap{
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    margin: 40px 40px;
+    background: rgba(255,255,255,0.2);
+}
+
+.blue .box{
+    display: inline-block;
+    height: 380px;
+    width: 380px;
+    background: rgba(255,255,255,0.5);
+}
