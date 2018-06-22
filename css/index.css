@@ -247,6 +247,11 @@ nav a:hover{
     background-size: 850px 480px;
 }
 
+.box7{
+    height: 400px;
+    width: 100%;
+}
+
 .box-content{
     height: 380px;
     width: 340px;
@@ -260,20 +265,54 @@ nav a:hover{
     color: #0099e9;
 }
 
-.box-content a:hover{
-    color: #000;
-}
-.box-content h3{
+.box-content p{
     margin-bottom: 20px;
 }
 
-.box-content button{
+.box-content a:hover{
+    color: #000;
+}
+.box-content h3,.entry-title-item8{
+    margin-bottom: 20px;
+}
+
+.box-content .btn-primary{
     color: #fff;
     background-color: #0099e9;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 14px;
     font-weight: bold;
-    line-height: 18px;
-    margin-top: 20px;
+    line-height: 16px;
+}
+
+.box-content .btn-primary:hover{
+    color: #000;
+}
+
+.entry-title-item8{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.box8 p{
+    color: #fff;
+    line-height: 40px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.btn-info{
+    color: #fff;
+    background-color: #222;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-info:hover{
+    color: #fff;
+    background-color: #222;
 }
