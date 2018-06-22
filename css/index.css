@@ -366,3 +366,53 @@ nav a:hover{
     color: #000;
     cursor: pointer;
 }
+
+/*博客区域布局*/
+.blog-area{
+    background-color: #2a3437;
+    width: 100%;
+    height: 1200px;
+    text-align: center;
+}
+
+.blog-area .entry-title{
+    color: #fff;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 40px 0;
+    font-style: normal;
+}
+
+.blog-area .blog{
+    width: 100%;
+    height: 800px;
+    padding: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.blog-area .blog-content{
+    height: 400px;
+    background: red;
+}
+.blog-area .blog-content1{
+    height: 400px;
+    background: blue;
+}
+.blog-area .blog-content2{
+    height: 400px;
+    background: black;
+}
+.blog-area .blog-content3{
+    height: 400px;
+    background: greenyellow;
+}
+
+.blog-area .blog-button{
+    padding: 40px 0;
+}
+
+.blog-button .btn-info{
+    background-color: #0099e9;
+}
