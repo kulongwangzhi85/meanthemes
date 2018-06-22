@@ -179,6 +179,7 @@ nav a:hover{
 .cell{
     display: table-cell;
     vertical-align: middle;
+    width: 100%;
 }
 
 .blue .box-wrap{
@@ -186,12 +187,93 @@ nav a:hover{
     height: 400px;
     width: 400px;
     margin: 40px 40px;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.0);
+    position: relative;
 }
 
 .blue .box{
+    text-align: center;
+    position: relative;
     display: inline-block;
+    top: 10px;
     height: 380px;
     width: 380px;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.8);
+}
+
+.blue .cell:hover .box-wrap{
+    background: rgba(255,255,255,0.3);
+}
+
+.box1{
+    background-image: url("../img/theatre-600x368.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 850px 480px;
+}
+
+.box2{
+    background-image: url("../img/job-shop-600x368.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 850px 480px;
+}
+
+.box3{
+    background-image: url("../img/trekk-600x368.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 850px 480px;
+}
+
+.box4{
+    background-image: url("../img/club-600x368.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 850px 480px;
+}
+
+.box5{
+    background-image: url("../img/info-600x368.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 850px 480px;
+}
+
+.box6{
+    background-image: url("../img/young-600x368.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 850px 480px;
+}
+
+.box-content{
+    height: 380px;
+    width: 340px;
+    text-align: center;
+    line-height: 25px;
+    padding: 20px;
+}
+
+.box-content a{
+    font-size: 1.2em;
+    color: #0099e9;
+}
+
+.box-content a:hover{
+    color: #000;
+}
+.box-content h3{
+    margin-bottom: 20px;
+}
+
+.box-content button{
+    color: #fff;
+    background-color: #0099e9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-top: 20px;
 }
